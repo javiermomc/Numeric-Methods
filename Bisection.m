@@ -32,15 +32,15 @@ v = f(b);
 
 % 1.5 - Check if the intervals are the roots
 if u == 0
-    o = fprintf('Root: %d', a);
+    o = ['Root: ', num2str(a)];
     disp(o);
-    o = fprintf('Count: %d', 0);
+    o = ['Count: ', num2str(0)];
     disp(o);
     return
 elseif v == 0
-    o = fprintf('Root: %d', b);
+    o = ['Root: ', num2str(b)];
     disp(o);
-    o = fprintf('Count: %d', 0);
+    o = ['Count: ', num2str(0)];
     disp(o);
     return
 end
@@ -76,7 +76,7 @@ while w~=0 && abs((x-prev)/x)*100>e
 end
 
 % 3.2 - Display the results
-o = fprintf('Root: %d', x);
-disp(o);
-o = fprintf('Count: %d', i);
-disp(o);
+o = ['Root: ', num2str(x)];
+    disp(o);
+    o = ['Count: ', num2str(i)];
+    disp(o);
