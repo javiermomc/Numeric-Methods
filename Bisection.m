@@ -60,15 +60,6 @@ x = (a+b)/2;
 % 2.2 - Evaluate the approximation
 w = f(x);
 
-% 2.3 - Check if the approximation is a root
-if w==0
-    o = fprintf('Root: %d', x);
-    disp(o);
-    o = fprintf('Count: %d', i);
-    disp(o);
-    return
-end
-
 % 3.1 - Recursively run the the process 2 until find the root
 while w~=0 && abs((x-prev)/x)*100>e
     prev = x;
