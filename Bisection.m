@@ -68,8 +68,7 @@ if w==0
     return
 end
 
-
-% 3.2 - Recursively run the the process 2 until find the root
+% 3.1 - Recursively run the the process 2 until find the root
 while w~=0 && abs(w)-fix(abs(w))>e
     if u*w<0
         b = x;
@@ -83,6 +82,7 @@ while w~=0 && abs(w)-fix(abs(w))>e
     i = i+1;
 end
 
+% 3.2 - Display the results
 o = fprintf('Root: %d', x);
 disp(o);
 o = fprintf('Count: %d', i);
