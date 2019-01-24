@@ -15,7 +15,7 @@
 
 % 1.1 - User function
 strF = input('f(x)=', 's');
-strF = strcat('@(x)', strF);
+strF = strcat('@(x) ', strF);
 f = str2func(strF);
 
 % 1.2 - User interval
@@ -24,6 +24,7 @@ b = input('Upper interval: ');
 
 % 1.3 - User tolerance
 e = input('Tolerance: ');
+prev = 0;
 
 % 1.4 - Evaluate the function on the intervals
 u = f(a);
@@ -69,7 +70,8 @@ if w==0
 end
 
 % 3.1 - Recursively run the the process 2 until find the root
-while w~=0 && abs(w)-fix(abs(w))>e
+while w~=0 && abs((x-prev)/x)*100>e
+    prev = x;
     if u*w<0
         b = x;
         v = f(b);
