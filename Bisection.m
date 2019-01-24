@@ -77,6 +77,6 @@ end
 
 % 3.2 - Display the results
 o = ['Root: ', num2str(x)];
-    disp(o);
-    o = ['Count: ', num2str(i)];
-    disp(o);
+disp(o);
+o = ['Count: ', num2str(i)];
+disp(o);
