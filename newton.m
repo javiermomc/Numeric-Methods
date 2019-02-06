@@ -20,7 +20,7 @@ strF = strcat('@(x) ', strF);
 f = str2func(strF);
 
 % 1.2 - User derivative
-strF = input('df(x)', 's');
+strF = input('df(x)=', 's');
 strF = strcat('@(x) ', strF);
 df = str2func(strF);
 
