@@ -1,5 +1,5 @@
-% @author Javier Mondragon
-% @id A01365137
+% @author: Javier Mondragon, Karen Leduc, Edgar Yañez
+% @id: A01365137, A01364986, A01368348
 %
 % This script implements Gauss-Seidel Method
 % to solve a system of linear equations
