@@ -2,7 +2,7 @@
 % @id A01365137
 % @date 04/03/2019
 %
-% This script implements Regression and interpolation
+% This script implements Regression and Interpolation
 % to find the equation of a sample
 %
 % INPUT:
