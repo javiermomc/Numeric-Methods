@@ -1,0 +1,14 @@
+Sistemas de ecuaciones lineales
+	1 ventaja y 1 desventaja
+	1 problema resolver como quiera (Eliminacion Gausseana recomendable)
+	Conceptos (Sistema consistente, homogeneo y no homogeneo)
+	Sacar modelo
+	Interpretar numeros para ver si un modelo es confiable o no
+	No
+		- Error estandar del estimado
+Interpolacion lineal
+	Sacar aproximado
+	Polinomial
+	Aprender Newton y Lagrange
+
+

@@ -58,9 +58,9 @@ sy = std(data(:,2));
 
 % 4.3 - Obtain the standar error from estimate(distance from points to the line)
 syx = sqrt(sr/(n-2)); 
+disp(syx);
 
 if (syx<sy)
-    
     disp('the model was worth it');
 else
      disp('the model was not worth it');
